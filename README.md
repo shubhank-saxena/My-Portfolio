@@ -1,68 +1,23 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align = "center">
 
-## Available Scripts
+# My Personal Website!
 
-In the project directory, you can run:
+<a href="https://medium.com/@saxena.shubhank.19"><img src="https://github.com/aritraroy/social-icons/blob/master/medium-icon.png?raw=true" width="60"></a>
+<a href="https://twitter.com/19_saxena"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a>
+<a href="https://www.linkedin.com/in/shubhank-saxena"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+<a href="https://facebook.com/shubhank.saxena2"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
+<a href="https://instagram.com/geek_forever_101"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-### `yarn start`
+[![Build Status](https://travis-ci.org/shubhank-saxena/My-Portfolio.svg?branch=master)](https://travis-ci.org/github/shubhank-saxena/My-Portfolio) [![GitHub issues](https://img.shields.io/github/issues/shubhank-saxena/My-Portfolio?logo=github)](https://github.com/shubhank-saxena/My-Portfolio/issues)
+![Size](https://github-size-badge.herokuapp.com/shubhank-saxena/My-Portfolio.svg)
+![Website](![Website](https://img.shields.io/website?down_color=lightgrey&down_message=crap%21&up_color=blue&up_message=it%27s%20up&url=https%3A%2F%2Fshubhank.codes))
+<a> <img src="https://badgen.net/dependabot/shubhank-saxena/My-Portfolio?icon=dependabot" alt="Dependabot Badge"></a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/shubhank-saxena/My-Portfoio/blob/master/.pre-commit-config.yaml)
+[![License](https://img.shields.io/github/license/developer-student-club-thapar/officialWebsite)](https://github.com/shubhank-saxena/My-Portfolio/blob/master/LICENSE)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+</div>
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Hello World! Mhy name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.
+You must be wondering(after seeing this code), "Why is the code so repititve?".
+Well, I am damn lazy! I will soon connect it with a Django Backend to have DRY code approach.
