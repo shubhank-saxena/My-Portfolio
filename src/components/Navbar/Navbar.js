@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Navbar = () => {
-    return(
-        <>
-        <nav className="hide-on-small-only">
+  return (
+    <>
+      <nav className="hide-on-small-only">
         <ul className="side-nav fixed section table-of-contents">
           <li className="logo">
             <a
@@ -13,92 +13,110 @@ const Navbar = () => {
               className="brand-logo teal-text"
             >
               <h1>
-                Shubhank Saxena<span className="brown-text light"
-                  >Full Stack Developer</span
-                >
-              </h1></a
-            >
+                Shubhank Saxena
+                <span className="brown-text light">Full Stack Developer</span>
+              </h1>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the About section"
               href="#about"
               className="waves-effect waves-dark teal-text"
-              ><i className="mdi-social-person small"></i><span>About</span></a
             >
+              <i className="mdi-social-person small"></i>
+              <span>About</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Experience section"
               href="#experience"
               className="waves-effect waves-dark cyan-text"
-              ><i className="mdi-action-trending-up small"></i
-              ><span>Experience</span></a
             >
+              <i className="mdi-action-trending-up small"></i>
+              <span>Experience</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Projects section"
               href="#projects"
               className="waves-effect waves-dark indigo-text"
-              ><i className="mdi-av-web small"></i><span>Projects</span></a
             >
+              <i className="mdi-av-web small"></i>
+              <span>Projects</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Projects section"
               href="#open-source"
               className="waves-effect waves-dark indigo-text"
-              ><i className="mdi-social-group small"></i><span>Open Source</span></a
             >
+              <i className="mdi-social-group small"></i>
+              <span>Open Source</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Skills section"
               href="#skills"
               className="waves-effect waves-dark purple-text"
-              ><i className="mdi-av-equalizer small"></i><span>Skills</span></a
             >
+              <i className="mdi-av-equalizer small"></i>
+              <span>Skills</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Awards section"
               href="#awards"
               className="waves-effect waves-dark red-text"
-              ><i className="mdi-action-grade small"></i><span>Awards</span></a
             >
+              <i className="mdi-action-grade small"></i>
+              <span>Awards</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Education section"
               href="#education"
               className="waves-effect waves-dark orange-text"
-              ><i className="mdi-social-school small"></i><span>Education</span></a
             >
+              <i className="mdi-social-school small"></i>
+              <span>Education</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Contact section"
               href="#contact"
               className="waves-effect waves-dark brown-text"
-              ><i className="mdi-content-mail small"></i><span>Contact</span></a
             >
+              <i className="mdi-content-mail small"></i>
+              <span>Contact</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Blog section"
               href="#blog"
               className="waves-effect waves-dark yellow-text text-darken-2"
-              ><i className="mdi-content-create small"></i><span>Blog</span></a
             >
+              <i className="mdi-content-create small"></i>
+              <span>Blog</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Open Shubhank's resume in a new tab"
               href="https://media-exp1.licdn.com/dms/document/C562DAQG7go0RzWnWmg/profile-treasury-document-pdf-analyzed/0?e=1593460800&v=beta&t=x3x4vU3bkPa9Aix3-dsOG80lrnbvbiJuCU0kIVl9fv0"
               className="waves-effect waves-dark grey-text text-darken-3"
-              ><i className="mdi-action-description small"></i><span>Resume</span></a
             >
+              <i className="mdi-action-description small"></i>
+              <span>Resume</span>
+            </a>
           </li>
         </ul>
       </nav>
@@ -108,16 +126,19 @@ const Navbar = () => {
           href=" "
           data-activates="slide-out"
           className="button-collapse"
-          ><i className="mdi-navigation-menu"></i
-        ></a>
+        >
+          <i className="mdi-navigation-menu"></i>
+        </a>
         <div className="name-title">
           <a
             id="name"
             aria-label="Navigate to the beginning of the page"
             href="#main"
             className="teal-text"
-            >Shubhank Saxena</a
-          ><span className="brown-text light">Full Stack Developer</span>
+          >
+            Shubhank Saxena
+          </a>
+          <span className="brown-text light">Full Stack Developer</span>
         </div>
       </nav>
       <nav className="hide-on-large only">
@@ -127,86 +148,105 @@ const Navbar = () => {
               aria-label="Navigate to the About section"
               href="#about"
               className="waves-effect waves-dark teal-text"
-              ><i className="mdi-social-person small"></i><span>About</span></a
             >
+              <i className="mdi-social-person small"></i>
+              <span>About</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Experience section"
               href="#experience"
               className="waves-effect waves-dark cyan-text"
-              ><i className="mdi-action-trending-up small"></i
-              ><span>Experience</span></a
             >
+              <i className="mdi-action-trending-up small"></i>
+              <span>Experience</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Projects section"
               href="#projects"
               className="waves-effect waves-dark indigo-text"
-              ><i className="mdi-av-web small"></i><span>Projects</span></a
             >
+              <i className="mdi-av-web small"></i>
+              <span>Projects</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Projects section"
               href="#open-source"
               className="waves-effect waves-dark indigo-text"
-              ><i className="mdi-social-group small"></i><span>Open Source</span></a
             >
+              <i className="mdi-social-group small"></i>
+              <span>Open Source</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Skills section"
               href="#skills"
               className="waves-effect waves-dark purple-text"
-              ><i className="mdi-av-equalizer small"></i><span>Skills</span></a
             >
+              <i className="mdi-av-equalizer small"></i>
+              <span>Skills</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Awards section"
               href="#awards"
               className="waves-effect waves-dark red-text"
-              ><i className="mdi-action-grade small"></i><span>Awards</span></a
             >
+              <i className="mdi-action-grade small"></i>
+              <span>Awards</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Education section"
               href="#education"
               className="waves-effect waves-dark orange-text"
-              ><i className="mdi-social-school small"></i><span>Education</span></a
             >
+              <i className="mdi-social-school small"></i>
+              <span>Education</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Contact section"
               href="#contact"
               className="waves-effect waves-dark brown-text"
-              ><i className="mdi-content-mail small"></i><span>Contact</span></a
             >
+              <i className="mdi-content-mail small"></i>
+              <span>Contact</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Navigate to the Contact section"
               href="#blog"
               className="waves-effect waves-dark yellow-text text-dark-3"
-              ><i className="mdi-content-mail small"></i><span>Blog</span></a
             >
+              <i className="mdi-content-mail small"></i>
+              <span>Blog</span>
+            </a>
           </li>
           <li className="bold">
             <a
               aria-label="Open Shubhank's Resume in a new tab"
               href="https://media-exp1.licdn.com/dms/document/C562DAQG7go0RzWnWmg/profile-treasury-document-pdf-analyzed/0?e=1593460800&v=beta&t=x3x4vU3bkPa9Aix3-dsOG80lrnbvbiJuCU0kIVl9fv0"
               className="waves-effect waves-dark grey-text text-darken-3"
-              ><i className="mdi-action-description small"></i><span>Resume</span></a
             >
+              <i className="mdi-action-description small"></i>
+              <span>Resume</span>
+            </a>
           </li>
         </ul>
       </nav>
-      </>
-    );
+    </>
+  );
 };
 
 export default Navbar;
