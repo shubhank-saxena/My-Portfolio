@@ -10,14 +10,17 @@
 
 [![Build Status](https://travis-ci.org/shubhank-saxena/My-Portfolio.svg?branch=master)](https://travis-ci.org/github/shubhank-saxena/My-Portfolio) [![GitHub issues](https://img.shields.io/github/issues/shubhank-saxena/My-Portfolio?logo=github)](https://github.com/shubhank-saxena/My-Portfolio/issues)
 ![Size](https://github-size-badge.herokuapp.com/shubhank-saxena/My-Portfolio.svg)
-![Website](https://img.shields.io/website?down_color=lightgrey&down_message=crap%21&up_color=blue&up_message=it%27s%20up&url=https%3A%2F%2Fshubhank.codes))
+![Website](https://img.shields.io/website?down_color=lightgrey&down_message=crap%21&up_color=blue&up_message=it%27s%20up&url=https%3A%2F%2Fshubhank.codes)
 <a> <img src="https://badgen.net/dependabot/shubhank-saxena/My-Portfolio?icon=dependabot" alt="Dependabot Badge"></a>
 
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/shubhank-saxena/My-Portfoio/blob/master/.pre-commit-config.yaml)
 [![License](https://img.shields.io/github/license/developer-student-club-thapar/officialWebsite)](https://github.com/shubhank-saxena/My-Portfolio/blob/master/LICENSE)
 
+
+Hello World! My name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.<br/>
+You must be wondering(after seeing this code), "Why is the code so repititve?".<br/>
+Well, I am damn lazy! I will soon connect it with a Django Backend to have DRY code approach.<br/>
+Also, Materialize CSS React library is not well developed, so I didn't use it as JS component/library
+
 </div>
 
-Hello World! My name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.
-You must be wondering(after seeing this code), "Why is the code so repititve?".
-Well, I am damn lazy! I will soon connect it with a Django Backend to have DRY code approach.
