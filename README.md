@@ -18,6 +18,6 @@
 
 </div>
 
-Hello World! Mhy name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.
+Hello World! My name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.
 You must be wondering(after seeing this code), "Why is the code so repititve?".
 Well, I am damn lazy! I will soon connect it with a Django Backend to have DRY code approach.
