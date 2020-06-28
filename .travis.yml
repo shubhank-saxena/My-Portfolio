@@ -20,7 +20,6 @@ jobs:
     install:
     - yarn install --frozen-lockfile
     script:
-    - yarn format
     - yarn build
 
   - stage: Tests
