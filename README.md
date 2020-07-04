@@ -17,10 +17,7 @@
 [![License](https://img.shields.io/github/license/developer-student-club-thapar/officialWebsite)](https://github.com/shubhank-saxena/My-Portfolio/blob/master/LICENSE)
 
 
-Hello World! My name is Shubhank Saxena, and I have created my personal website using React and Materialize CSS.<br/>
-You must be wondering(after seeing this code), "Why is the code so repititve?".<br/>
-Well, I am damn lazy! I will soon connect it with a Django Backend to have DRY code approach.<br/>
-Also, Materialize CSS React library is not well developed, so I didn't use it as JS component/library
+Hello World! My name is Shubhank Saxena, and I have created my personal website using React, Django and Materialize CSS.<br/>
 
 </div>
 
