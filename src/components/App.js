@@ -39,7 +39,7 @@ class App extends React.Component {
           <About />
           <Experience />
           <Projects data={this.state.projects} />
-          <OpenSource />
+          <OpenSource data={this.state.opensource} />
           <Skills />
           <Awards />
           <Education />
