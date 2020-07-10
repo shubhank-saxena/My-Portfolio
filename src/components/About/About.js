@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
+    <section id="about" className="section scrollspy">
+      <h3 className="page-title white-text teal">About</h3>
+      <div className="container flow-text">
         <blockquote>
           <h2>
             Mission-driven full stack developer and NLP and Deep Learning

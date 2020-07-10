@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import Navbar from "./Navbar/Navbar";
 import Homepage from "./Homepage/Homepage";
 import About from "./About/About";
@@ -10,23 +11,38 @@ import Education from "./Education/Education";
 import Contact from "./Contact/Contact";
 import OpenSource from "./OpenSource/OpenSource";
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <main>
-        <Homepage />
-        <About />
-        <Experience />
-        <Projects />
-        <OpenSource />
-        <Skills />
-        <Awards />
-        <Education />
-        <Contact />
-      </main>
-    </>
-  );
-};
+class App extends React.Component {
+  state = {
+    projects: []
+  };
+
+  componentDidMount() {
+    axios.get("http://127.0.0.1:8000/api/").then(res => {
+      this.setState({
+        projects: res.data
+      });
+      console.log(res.data);
+    });
+  }
+
+  render() {
+    return (
+      <>
+        <Navbar />
+        <main>
+          <Homepage />
+          <About />
+          <Experience />
+          <Projects data={this.state.projects} />
+          <OpenSource />
+          <Skills />
+          <Awards />
+          <Education />
+          <Contact />
+        </main>
+      </>
+    );
+  }
+}
 
 export default App;

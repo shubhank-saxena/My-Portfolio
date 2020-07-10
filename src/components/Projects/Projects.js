@@ -1,6 +1,7 @@
 import React from "react";
 
-const Projects = () => {
+const Projects = props => {
+
   return (
     <>
       <section id="projects" className="section scrollspy">
@@ -8,10 +9,13 @@ const Projects = () => {
         <div className="container">
           <div className="row">
             <div className="col s12 m6 l4">
-              <div className="card medium">
+              props.data.map((data)=> {
+                return(
+                  <>
+                  <div className="card medium">
                 <div className="card-image waves-effect waves-block waves-light">
                   <img
-                    alt="Language Translation"
+                    alt="Speech Recognizer"
                     src=""
                     className="activator"
                   />
@@ -61,6 +65,9 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+                </>
+                );
+              });
             </div>
             <div className="col s12 m6 l4">
               <div className="card medium">
