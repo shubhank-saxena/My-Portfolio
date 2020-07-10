@@ -13,15 +13,20 @@ import OpenSource from "./OpenSource/OpenSource";
 
 class App extends React.Component {
   state = {
-    projects: []
+    projects: [],
+    opensource: []
   };
 
   componentDidMount() {
-    axios.get("http://127.0.0.1:8000/api/").then(res => {
+    axios.get("https://backend.shubhank.codes/api/projects").then(res => {
       this.setState({
         projects: res.data
       });
-      console.log(res.data);
+    });
+    axios.get("https://backend.shubhank.codes/api/opensource").then(res => {
+      this.setState({
+        opensource: res.data
+      });
     });
   }
 
