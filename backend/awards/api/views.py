@@ -3,6 +3,6 @@ from backend.awards.models import Award
 from .serializers import AwardSerializer
 
 
-class OpensourceListView(ListAPIView):
+class AwardListView(ListAPIView):
     queryset = Award.objects.all()
     serializer_class = AwardSerializer
