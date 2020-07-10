@@ -14,7 +14,10 @@ import OpenSource from "./OpenSource/OpenSource";
 class App extends React.Component {
   state = {
     projects: [],
-    opensource: []
+    opensource: [],
+    experience: [],
+    awards: [],
+    education: []
   };
 
   componentDidMount() {
@@ -28,6 +31,21 @@ class App extends React.Component {
         opensource: res.data
       });
     });
+    axios.get("https://backend.shubhank.codes/api/experience").then(res => {
+      this.setState({
+        experience: res.data
+      });
+    });
+    axios.get("https://backend.shubhank.codes/api/awards").then(res => {
+      this.setState({
+        awards: res.data
+      });
+    });
+    axios.get("https://backend.shubhank.codes/api/education").then(res => {
+      this.setState({
+        education: res.data
+      });
+    });
   }
 
   render() {
@@ -37,12 +55,12 @@ class App extends React.Component {
         <main>
           <Homepage />
           <About />
-          <Experience />
+          <Experience data={this.state.projects} />
           <Projects data={this.state.projects} />
           <OpenSource data={this.state.opensource} />
           <Skills />
-          <Awards />
-          <Education />
+          <Awards data={this.state.awards} />
+          <Education data={this.state.education} />
           <Contact />
         </main>
       </>
