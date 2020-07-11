@@ -13,7 +13,7 @@ SECRET_KEY = "dpw@b*1c%0ca(=n0%1*m2qg08-+=u!f_%*(cnb)3(ux5(7i6ln"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['backend.shubhank.codes']
 
 
 # Application definition
