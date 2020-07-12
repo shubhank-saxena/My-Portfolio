@@ -19,5 +19,7 @@
 
 Hello World! My name is Shubhank Saxena, and I have created my personal website using React, Django and Materialize CSS.<br/>
 
+Design credits goes to [Andrew Borstein](https://github.com/andrewborstein/portfolio)!
+Special thanks and credits to Jay Parmani (https://github.com/jsparmani) for helping me with deployment and CI/CD pipeline!
 </div>
 
