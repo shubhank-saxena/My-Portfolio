@@ -21,7 +21,7 @@ jobs:
   - stage: Tests
     name: Linting Tests
     language: python
-    python: '3.7'
+    python: '3.8'
     cache: pip
     install:
     - pip install pre-commit
@@ -50,7 +50,7 @@ jobs:
   - stage: Deployment
     name: Backend Deployment
     language: python
-    python: '3.7'
+    python: '3.8'
     cache: pip
     before_install:
     - openssl aes-256-cbc -K $encrypted_0ac7143b15e8_key -iv $encrypted_0ac7143b15e8_iv
