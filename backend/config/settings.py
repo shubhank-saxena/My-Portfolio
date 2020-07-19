@@ -32,7 +32,9 @@ INSTALLED_APPS = [
     "backend.education",
     "backend.openSource",
     "backend.projects",
-    "backend.skills",
+    "backend.devskills",
+    "backend.frameworkskills",
+    "backend.languageskills",
 ]
 
 MIDDLEWARE = [

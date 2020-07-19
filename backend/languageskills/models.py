@@ -5,14 +5,14 @@ from io import BytesIO
 from django.core.files.uploadedfile import InMemoryUploadedFile
 
 # Create your models here.
-class Skill(models.Model):
+class Languageskill(models.Model):
     name = models.CharField(max_length=70)
     image = models.ImageField(upload_to="images/")
 
     def save(self, *args, **kwargs):
         if not self.id:
             self.image = self.compressImage(self.image)
-        super(Skill, self).save(*args, **kwargs)
+        super(Languageskill, self).save(*args, **kwargs)
 
     def compressImage(self, image):
         imageTemproary = Image.open(image)
