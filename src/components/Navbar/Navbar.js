@@ -101,7 +101,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Navigate to the Blog section"
-              href="#blog"
+              href="https://blog.shubhank.codes"
               className="waves-effect waves-dark yellow-text text-darken-2"
             >
               <i className="mdi-content-create small"></i>
