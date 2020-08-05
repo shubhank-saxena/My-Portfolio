@@ -3,7 +3,7 @@ import React from "react";
 const OpenSource = props => {
   return (
     <>
-      <section id="projects" className="section scrollspy">
+      <section id="open-source" className="section scrollspy">
         <h3 className="page-title white-text teal">Open Source</h3>
         <div className="container">
           <div className="row">
