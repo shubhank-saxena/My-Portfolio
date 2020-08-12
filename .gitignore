@@ -9,6 +9,10 @@ vagrant/env_local.sh
 *.ppk
 !.github
 
+#build files
+build/
+static/
+
 # vi
 *.swp
 
