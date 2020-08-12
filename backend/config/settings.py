@@ -27,7 +27,6 @@ INSTALLED_APPS = [
     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     "rest_framework",
-    "corsheaders",
     "backend.awards",
     "backend.accomplishment",
     "backend.education",
@@ -48,7 +47,6 @@ if DEBUG:
     MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -110,5 +108,3 @@ REST_FRAMEWORK = {
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly']
 }
-
-CORS_ORIGIN_ALLOW_ALL = True
