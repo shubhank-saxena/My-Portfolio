@@ -14,6 +14,9 @@ urlpatterns = [
     path("api/opensource/", include("backend.openSource.api.urls")),
     path("api/awards/", include("backend.awards.api.urls")),
     path("api/education/", include("backend.education.api.urls")),
+    path("api/languageskills/", include("backend.languageskills.api.urls")),
+    path("api/frameworkskills/", include("backend.frameworkskills.api.urls")),
+    path("api/devskills/", include("backend.devskills.api.urls")),
 ]
 
 if settings.DEBUG:
