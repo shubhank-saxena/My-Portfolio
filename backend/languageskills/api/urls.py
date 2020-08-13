@@ -1,4 +1,4 @@
 from django.urls import path
-from .views import FrameworkskillListView
+from .views import LanguageskillListView
 
-urlpatterns = [path('', FrameworkskillListView.as_view())]
+urlpatterns = [path('', LanguageskillListView.as_view())]
