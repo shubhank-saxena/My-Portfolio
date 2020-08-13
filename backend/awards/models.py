@@ -7,4 +7,4 @@ class Award(models.Model):
     description = models.TextField()
 
     def __str__(self):
-        return self.subTitle
+        return self.title
