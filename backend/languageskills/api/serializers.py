@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from backend.frameworkskills.models import Frameworkskill
+from backend.languageskills.models import Languageskill
 
 
-class FrameworkskillSerializer(serializers.ModelSerializer):
+class LanguageskillSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Frameworkskill
+        model = Languageskill
         fields = '__all__'
