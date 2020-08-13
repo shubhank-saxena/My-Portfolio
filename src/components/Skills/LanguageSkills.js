@@ -11,6 +11,7 @@ const LanguageSkills = props => {
               return (
                 <div className="col s3 m2">
                   <img alt="" src={data.image} className="responsive-img" />
+                  <br />
                   {data.name}
                 </div>
               );
