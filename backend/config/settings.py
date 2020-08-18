@@ -6,6 +6,8 @@ env = environ.Env()
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
 
+environ.Env.read_env(env_file=os.path.join(BASE_DIR, "../.env"))
+
 DEBUG = env.bool("DEBUG", default=True)
 
 SECRET_KEY = env("SECRET_KEY", default='secret-key-of-at-least-50-characters-to-pass-check-deploy',)
