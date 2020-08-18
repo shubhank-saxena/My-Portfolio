@@ -20,6 +20,7 @@ Django = "==3.0.8"
 Pillow = "==7.2.0"
 whitenoise = "*"
 gunicorn = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.8"

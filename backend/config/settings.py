@@ -1,17 +1,14 @@
 import os
+import environ
 
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+env = environ.Env()
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FRONTEND_DIR = os.path.abspath(os.path.join(BASE_DIR, '..'))
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+DEBUG = env.bool("DEBUG", default=True)
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "dpw@b*1c%0ca(=n0%1*m2qg08-+=u!f_%*(cnb)3(ux5(7i6ln"
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+SECRET_KEY = env("SECRET_KEY", default='secret-key-of-at-least-50-characters-to-pass-check-deploy',)
 
 ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost']
 
@@ -37,14 +34,13 @@ INSTALLED_APPS = [
     "backend.languageskills",
 ]
 
-if DEBUG:
-    STATICFILES_DIRS = [os.path.join(FRONTEND_DIR, 'build', 'static')]
-    STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-    STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-    STATIC_URL = "/static/"
-    WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
-    MEDIA_URL = "/media/"
-    MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+STATICFILES_DIRS = [os.path.join(FRONTEND_DIR, 'build', 'static')]
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = "/static/"
+WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -77,15 +73,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = "backend.config.wsgi.application"
 
-
-# Database
-# https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-
 DATABASES = {"default": {"ENGINE": "django.db.backends.sqlite3", "NAME": os.path.join(BASE_DIR, "db.sqlite3"),}}
-
-
-# Password validation
-# https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",},
@@ -93,9 +81,6 @@ AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator",},
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",},
 ]
-
-
-# Internationalization
 
 LANGUAGE_CODE = "en-us"
 TIME_ZONE = "Asia/Kolkata"
