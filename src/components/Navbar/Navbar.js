@@ -111,7 +111,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's resume in a new tab"
-              href="https://media-exp1.licdn.com/dms/document/C562DAQG7go0RzWnWmg/profile-treasury-document-pdf-analyzed/0?e=1593460800&v=beta&t=x3x4vU3bkPa9Aix3-dsOG80lrnbvbiJuCU0kIVl9fv0"
+              href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>
@@ -236,7 +236,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's Resume in a new tab"
-              href="https://media-exp1.licdn.com/dms/document/C562DAQG7go0RzWnWmg/profile-treasury-document-pdf-analyzed/0?e=1593460800&v=beta&t=x3x4vU3bkPa9Aix3-dsOG80lrnbvbiJuCU0kIVl9fv0"
+              href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>

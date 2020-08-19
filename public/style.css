@@ -31,7 +31,7 @@ nav i {
   top: 5px;
 }
 main {
-  background: url(../../assets/img/bg.png) repeat;
+  background: url("bg.png") repeat;
   padding-left: 190px;
 }
 dl {
@@ -140,8 +140,7 @@ h3 {
   height: 100vh;
 }
 #intro.section {
-  background: url(../../assets/img/andrew-borstein-2a.jpg) no-repeat top
-    center/cover;
+  background: url("oie_Y0DyF6oW8JID.jpg") no-repeat top center/cover;
   position: relative;
 }
 #intro.section .container {

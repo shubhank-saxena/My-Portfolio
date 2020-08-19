@@ -34,7 +34,7 @@ const Contact = () => {
             >
               <i className="fa fa-github"></i>
               <a
-                aria-label="Andrew on Github"
+                aria-label="Shubhank on Github"
                 href="https://github.com/shubhank-saxena"
                 className="hoverline"
               >
