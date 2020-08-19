@@ -12,6 +12,9 @@ DEBUG = env.bool("DEBUG", default=True)
 
 SECRET_KEY = env("SECRET_KEY", default='secret-key-of-at-least-50-characters-to-pass-check-deploy',)
 
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost']
 
 
@@ -42,8 +45,6 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = "/static/"
 WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
