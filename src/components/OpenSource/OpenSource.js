@@ -34,7 +34,7 @@ const OpenSource = props => {
                         {data.accomplishments.map(accomp => {
                           return (
                             <li>
-                              <strong>{accomp}</strong>
+                              <strong>{accomp.accomplishment}</strong>
                             </li>
                           );
                         })}
