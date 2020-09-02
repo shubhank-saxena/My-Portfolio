@@ -11,8 +11,24 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(model_name='opensource', name='accomplishments', field=models.ManyToManyField(to='accomplishment.Accomplishment'),),
-        migrations.AddField(model_name='opensource', name='githubLink', field=models.URLField(blank=True),),
-        migrations.AddField(model_name='opensource', name='hostingLink', field=models.URLField(blank=True),),
-        migrations.AddField(model_name='opensource', name='image', field=models.ImageField(blank=True, upload_to='images/'),),
+        migrations.AddField(
+            model_name='opensource',
+            name='accomplishments',
+            field=models.ManyToManyField(to='accomplishment.Accomplishment'),
+        ),
+        migrations.AddField(
+            model_name='opensource',
+            name='githubLink',
+            field=models.URLField(blank=True),
+        ),
+        migrations.AddField(
+            model_name='opensource',
+            name='hostingLink',
+            field=models.URLField(blank=True),
+        ),
+        migrations.AddField(
+            model_name='opensource',
+            name='image',
+            field=models.ImageField(blank=True, upload_to='images/'),
+        ),
     ]

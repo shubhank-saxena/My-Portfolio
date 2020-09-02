@@ -25,7 +25,14 @@ class Project(models.Model):
         outputIoStream = BytesIO()
         imageTemproary.save(outputIoStream, format="JPEG", quality=60)
         outputIoStream.seek(0)
-        image = InMemoryUploadedFile(outputIoStream, "ImageField", "%s.jpg" % image.name.split(".")[0], "image/jpeg", sys.getsizeof(outputIoStream), None,)
+        image = InMemoryUploadedFile(
+            outputIoStream,
+            "ImageField",
+            "%s.jpg" % image.name.split(".")[0],
+            "image/jpeg",
+            sys.getsizeof(outputIoStream),
+            None,
+        )
         return image
 
     def __str__(self):
