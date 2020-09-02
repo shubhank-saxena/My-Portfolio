@@ -44,7 +44,7 @@ const Navbar = () => {
               href="#volunteering"
               className="waves-effect waves-dark cyan-text"
             >
-              <i className="mdi-action-trending-up small"></i>
+              <i className="mdi-action-favorite small"></i>
               <span>Volunteering</span>
             </a>
           </li>
@@ -121,6 +121,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's resume in a new tab"
+              target="blank"
               href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
@@ -171,6 +172,16 @@ const Navbar = () => {
             >
               <i className="mdi-action-trending-up small"></i>
               <span>Experience</span>
+            </a>
+          </li>
+          <li className="bold">
+            <a
+              aria-label="Navigate to the Experience section"
+              href="#volunteering"
+              className="waves-effect waves-dark cyan-text"
+            >
+              <i className="mdi-action-favorite small"></i>
+              <span>Volunteering</span>
             </a>
           </li>
           <li className="bold">
@@ -246,6 +257,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's Resume in a new tab"
+              target="blank"
               href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
