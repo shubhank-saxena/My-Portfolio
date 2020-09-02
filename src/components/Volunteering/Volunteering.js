@@ -33,24 +33,29 @@ const Volunteering = () => {
             <div className="role brown-text">Founder and Lead</div>
             <p>
               <em className="grey-text">
-                Founded Developer Student Clubs TIET chapter along with an amazing team of fellow developers.
+                Founded Developer Student Clubs TIET chapter along with an
+                amazing team of fellow developers.
               </em>
             </p>
             <ul>
               <li>
-                Conducted CS101, and intro to the various fields of CS for freshmen students.
+                Conducted CS101, and intro to the various fields of CS for
+                freshmen students.
               </li>
               <li>
-                Conducted various Alexa and Google Assistant Development workshops
+                Conducted various Alexa and Google Assistant Development
+                workshops
               </li>
               <li>
                 Conducted informative sessions on various open source programs.
               </li>
               <li>
-                Conducted full fledged programming bootcamps for senior and sophomore students.
+                Conducted full fledged programming bootcamps for senior and
+                sophomore students.
               </li>
               <li>
-                Started Podcast series with tech experts, named "RawTalent" to bridge down indsutry and academic world gap.
+                Started Podcast series with tech experts, named "RawTalent" to
+                bridge down indsutry and academic world gap.
               </li>
             </ul>
           </div>
@@ -93,9 +98,7 @@ const Volunteering = () => {
               <li>
                 Conducted girls-only hackathon to encourage their participation.
               </li>
-              <li>
-                Conducted expert talks by various industry experts.
-              </li>
+              <li>Conducted expert talks by various industry experts.</li>
             </ul>
           </div>
           <div className="card-action">
@@ -137,9 +140,7 @@ const Volunteering = () => {
               <li>
                 50+ participants from 15+ cities participated in the hack.
               </li>
-              <li>
-                Major sponsors like Github, Wolfram Alpha, Zulip, etc.
-              </li>
+              <li>Major sponsors like Github, Wolfram Alpha, Zulip, etc.</li>
             </ul>
           </div>
           <div className="card-action">

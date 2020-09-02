@@ -56,8 +56,8 @@ class App extends React.Component {
         <main>
           <Homepage />
           <About />
-          <Experience/>
-          <Volunteering/>
+          <Experience />
+          <Volunteering />
           <Projects data={this.state.projects} />
           <OpenSource data={this.state.opensource} />
           <Skills />
