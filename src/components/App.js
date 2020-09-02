@@ -4,6 +4,7 @@ import Navbar from "./Navbar/Navbar";
 import Homepage from "./Homepage/Homepage";
 import About from "./About/About";
 import Experience from "./Experience/Experience";
+import Volunteering from "./Volunteering/Volunteering";
 import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Awards from "./Awards/Awards";
@@ -55,7 +56,8 @@ class App extends React.Component {
         <main>
           <Homepage />
           <About />
-          <Experience data={this.state.projects} />
+          <Experience/>
+          <Volunteering/>
           <Projects data={this.state.projects} />
           <OpenSource data={this.state.opensource} />
           <Skills />
