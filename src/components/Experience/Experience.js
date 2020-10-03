@@ -53,6 +53,42 @@ const Experience = () => {
             <span>May 2019 - July 2019 | Allahabad, IN</span>
           </div>
         </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
+                <a href="https://fellowship.mlh.io/">
+                  <img
+                    alt="MLH Logo"
+                    src="https://mlh.io/assets/logos/mlh-facebook-ae6144c0a3605f15992ee2970616db8d.jpg"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://fellowship.mlh.io/"
+                      className="teal-text hoverline"
+                    >
+                      Major League Hacking
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Fellowship</div>
+            <p>
+              <em className="grey-text">
+                OpenSource Contributor in MLH Fellowship
+              </em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>Oct 2020 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
       </div>
     </section>
   );
