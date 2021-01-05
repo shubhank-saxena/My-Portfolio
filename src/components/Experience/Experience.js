@@ -5,6 +5,86 @@ const Experience = () => {
     <section id="experience" className="section scrollspy">
       <h3 className="page-title white-text teal">Experience</h3>
       <div className="container">
+      <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
+                <a href="https://home.iitd.ac.in/">
+                  <img
+                    alt="IITD Logo"
+                    src="https://upload.wikimedia.org/wikipedia/en/a/a4/Indian_Institute_of_Technology_Delhi_logo.png"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://home.iitd.ac.in/"
+                      className="teal-text hoverline"
+                    >
+                      Indian Institute of Technology, Delhi (IIT Delhi)
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Research Intern</div>
+            <p>
+              <em className="grey-text">
+                Research Internship under Dr.Tapan Kumar Gandhi
+              </em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>January 2021 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
+                <a href="https://fellowship.mlh.io/">
+                  <img
+                    alt="MLH Logo"
+                    src="https://mlh.io/assets/logos/mlh-facebook-ae6144c0a3605f15992ee2970616db8d.jpg"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://fellowship.mlh.io/"
+                      className="teal-text hoverline"
+                    >
+                      Major League Hacking
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Fellowship</div>
+            <p>
+              <em className="grey-text">
+                OpenSource Contributor in MLH Fellowship
+              </em>
+            </p>
+            <ul>
+              <li>
+                Contributed to Julia Language
+              </li>
+              <li>
+                Created julia package named WellIO.jl which is useful for exploration and processing of ASCII LAS (Oil Well Drilling Data)files.
+              </li>
+            </ul>
+          </div>
+          <div className="card-action">
+            <span>Oct 2020 - Dec 2020 | Kota, IN (Remote)</span>
+          </div>
+        </div>
         <div className="card">
           <div className="card-content">
             <div className="row">
@@ -51,42 +131,6 @@ const Experience = () => {
           </div>
           <div className="card-action">
             <span>May 2019 - July 2019 | Allahabad, IN</span>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <div className="row">
-              <div className="col s12 m2">
-                <a href="https://fellowship.mlh.io/">
-                  <img
-                    alt="MLH Logo"
-                    src="https://mlh.io/assets/logos/mlh-facebook-ae6144c0a3605f15992ee2970616db8d.jpg"
-                    className="responsive-img center-block"
-                  />
-                </a>
-              </div>
-              <div className="col s12 m10">
-                <p>
-                  <span className="card-title">
-                    <a
-                      href="https://fellowship.mlh.io/"
-                      className="teal-text hoverline"
-                    >
-                      Major League Hacking
-                    </a>
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="role brown-text">Fellowship</div>
-            <p>
-              <em className="grey-text">
-                OpenSource Contributor in MLH Fellowship
-              </em>
-            </p>
-          </div>
-          <div className="card-action">
-            <span>Oct 2020 - Ongoing | Kota, IN (Remote)</span>
           </div>
         </div>
       </div>
