@@ -5,7 +5,7 @@ const Experience = () => {
     <section id="experience" className="section scrollspy">
       <h3 className="page-title white-text teal">Experience</h3>
       <div className="container">
-      <div className="card">
+        <div className="card">
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
@@ -73,11 +73,11 @@ const Experience = () => {
               </em>
             </p>
             <ul>
+              <li>Contributed to Julia Language</li>
               <li>
-                Contributed to Julia Language
-              </li>
-              <li>
-                Created julia package named WellIO.jl which is useful for exploration and processing of ASCII LAS (Oil Well Drilling Data)files.
+                Created julia package named WellIO.jl which is useful for
+                exploration and processing of ASCII LAS (Oil Well Drilling
+                Data)files.
               </li>
             </ul>
           </div>
