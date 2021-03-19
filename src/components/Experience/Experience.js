@@ -24,7 +24,7 @@ const Experience = () => {
                       href="https://home.iitd.ac.in/"
                       className="teal-text hoverline"
                     >
-                      Indian Institute of Technology, Delhi (IIT Delhi)
+                      Indian Institute of Technology, Delhi
                     </a>
                   </span>
                 </p>
