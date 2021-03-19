@@ -8,23 +8,23 @@ class Skills extends React.Component {
   state = {
     languageskills: [],
     frameworkskills: [],
-    devskills: []
+    devskills: [],
   };
 
   componentDidMount() {
-    axios.get("https://shubhank.codes/api/languageskills").then(res => {
+    axios.get("https://shubhank.codes/api/languageskills").then((res) => {
       this.setState({
-        languageskills: res.data
+        languageskills: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/frameworkskills").then(res => {
+    axios.get("https://shubhank.codes/api/frameworkskills").then((res) => {
       this.setState({
-        frameworkskills: res.data
+        frameworkskills: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/devskills").then(res => {
+    axios.get("https://shubhank.codes/api/devskills").then((res) => {
       this.setState({
-        devskills: res.data
+        devskills: res.data,
       });
     });
   }

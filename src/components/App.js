@@ -18,33 +18,33 @@ class App extends React.Component {
     opensource: [],
     experience: [],
     awards: [],
-    education: []
+    education: [],
   };
 
   componentDidMount() {
-    axios.get("https://shubhank.codes/api/projects").then(res => {
+    axios.get("https://shubhank.codes/api/projects").then((res) => {
       this.setState({
-        projects: res.data
+        projects: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/opensource").then(res => {
+    axios.get("https://shubhank.codes/api/opensource").then((res) => {
       this.setState({
-        opensource: res.data
+        opensource: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/experience").then(res => {
+    axios.get("https://shubhank.codes/api/experience").then((res) => {
       this.setState({
-        experience: res.data
+        experience: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/awards").then(res => {
+    axios.get("https://shubhank.codes/api/awards").then((res) => {
       this.setState({
-        awards: res.data
+        awards: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/education").then(res => {
+    axios.get("https://shubhank.codes/api/education").then((res) => {
       this.setState({
-        education: res.data
+        education: res.data,
       });
     });
   }

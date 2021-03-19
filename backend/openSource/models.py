@@ -1,10 +1,12 @@
-from django.db import models
 import sys
-from PIL import Image
 from io import BytesIO
+
 from django.core.files.uploadedfile import InMemoryUploadedFile
+from django.db import models
+from PIL import Image
 
 from backend.accomplishment.models import Accomplishment
+
 
 # Create your models here.
 class Opensource(models.Model):

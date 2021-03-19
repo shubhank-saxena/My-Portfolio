@@ -1,5 +1,7 @@
 from rest_framework.generics import ListAPIView
+
 from backend.projects.models import Project
+
 from .serializers import ProjectSerializer
 
 

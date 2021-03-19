@@ -1,13 +1,13 @@
 import React from "react";
 
-const Awards = props => {
+const Awards = (props) => {
   return (
     <>
       <section id="awards" className="section scrollspy">
         <h3 className="page-title white-text teal">Awards</h3>
         <div className="container">
           <div className="row">
-            {props.data.map(data => {
+            {props.data.map((data) => {
               return (
                 <div className="col s12 m6">
                   <div className="card">
