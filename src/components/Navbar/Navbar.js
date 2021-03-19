@@ -122,7 +122,7 @@ const Navbar = () => {
             <a
               aria-label="Open Shubhank's resume in a new tab"
               target="blank"
-              href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SXDjhQ-9Ql9gTzqk8HPxxh2VNTHCh6eQ/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>
@@ -258,7 +258,7 @@ const Navbar = () => {
             <a
               aria-label="Open Shubhank's Resume in a new tab"
               target="blank"
-              href="https://drive.google.com/file/d/1GZ46UKKgDsK0eQeGHRqdWZjffoEUEYf_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1SXDjhQ-9Ql9gTzqk8HPxxh2VNTHCh6eQ/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>
