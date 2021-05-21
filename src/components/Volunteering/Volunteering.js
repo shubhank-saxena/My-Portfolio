@@ -70,7 +70,7 @@ const Volunteering = () => {
                 <a href="https://www.girlscript.tech/home">
                   <img
                     alt="GirlScript"
-                    src="https://www.gssoc.tech/images/gslogo.png"
+                    src="https://pbs.twimg.com/profile_images/1257536509978107905/Px8so8Ny_400x400.jpg"
                     className="responsive-img center-block"
                   />
                 </a>

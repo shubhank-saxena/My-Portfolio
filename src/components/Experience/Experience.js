@@ -5,6 +5,42 @@ const Experience = () => {
     <section id="experience" className="section scrollspy">
       <h3 className="page-title white-text teal">Experience</h3>
       <div className="container">
+      <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
+                <a href="https://home.iitd.ac.in/">
+                  <img
+                    alt="GFOSS Logo"
+                    src="https://avatars.githubusercontent.com/u/2427173?s=200&v=4"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://summerofcode.withgoogle.com/projects/#4980672680165376"
+                      className="teal-text hoverline"
+                    >
+                      GFOSS Open Alliance - GSoC'21
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Open Source Contributor</div>
+            <p>
+              <em className="grey-text">
+                Part Time Contribution to MediaCMS project under Google Summer of Code 2021
+              </em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>June 2021 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
         <div className="card">
           <div className="card-content">
             <div className="row">
@@ -12,7 +48,7 @@ const Experience = () => {
                 <a href="https://home.iitd.ac.in/">
                   <img
                     alt="IITD Logo"
-                    src="https://upload.wikimedia.org/wikipedia/en/a/a4/Indian_Institute_of_Technology_Delhi_logo.png"
+                    src="https://www.latestlaws.com/media/2020/05/1590760739.png"
                     className="responsive-img center-block"
                   />
                 </a>
