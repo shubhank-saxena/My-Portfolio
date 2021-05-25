@@ -5,7 +5,7 @@ const Experience = () => {
     <section id="experience" className="section scrollspy">
       <h3 className="page-title white-text teal">Experience</h3>
       <div className="container">
-      <div className="card">
+        <div className="card">
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
@@ -33,7 +33,8 @@ const Experience = () => {
             <div className="role brown-text">Open Source Contributor</div>
             <p>
               <em className="grey-text">
-                Part Time Contribution to MediaCMS project under Google Summer of Code 2021
+                Part Time Contribution to MediaCMS project under Google Summer
+                of Code 2021
               </em>
             </p>
           </div>
