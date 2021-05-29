@@ -112,6 +112,7 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Navigate to the Blog section"
+              target="blank"
               href="https://blog.shubhank.codes"
               className="waves-effect waves-dark yellow-text text-darken-2"
             >
@@ -245,9 +246,11 @@ const Navbar = () => {
               <span>Contact</span>
             </a>
           </li>
+          <hr/>
           <li className="bold">
             <a
               aria-label="Navigate to the Contact section"
+              target="blank"
               href="#blog"
               className="waves-effect waves-dark yellow-text text-dark-3"
             >
