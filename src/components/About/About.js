@@ -7,7 +7,7 @@ const About = () => {
       <div className="container flow-text">
         <blockquote>
           <h2>
-            Mission-driven full stack developer and NLP and Deep Learning
+            Mission-driven full stack developer and Deep Learning
             Practitioner with a passion for thoughtful Product Design,
             collaboration, and teaching.
           </h2>
@@ -19,7 +19,7 @@ const About = () => {
           problems.
         </p>
         <p>
-          As a web and AI developer, I enjoy using my obsessive attention to
+          As a Web and AI developer, I enjoy using my obsessive attention to
           detail, my unequivocal love for making things, and my mission-driven
           work ethic to literally change the world. That's why I’m excited to
           make dent in this universe!
@@ -27,24 +27,17 @@ const About = () => {
         <p>
           <strong>Current Focus</strong>:&nbsp;
           <a
-            aria-label="Building my own OS"
-            href="https://github.com/shubhank-saxena/Fenix-OS"
+            aria-label="GSoC'21"
+            href="https://summerofcode.withgoogle.com/projects/#4980672680165376"
           >
-            FenixOS
+            GSoC'21
           </a>
           &nbsp;//&nbsp;
           <a
-            aria-label="My React Journey"
-            href="https://github.com/shubhank-saxena/My-Portfolio"
+            aria-label="LFN Mentorship"
+            href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc"
           >
-            React
-          </a>
-          &nbsp;//&nbsp;
-          <a
-            aria-label="For the love of Deep Learning and NLP"
-            href="https://github.com/shubhank-saxena/dnn-speech-recognizer"
-          >
-            NLP/DL
+            LFN Mentorship
           </a>
         </p>
       </div>

@@ -108,6 +108,7 @@ const Navbar = () => {
               <span>Contact</span>
             </a>
           </li>
+          <hr/>
           <li className="bold">
             <a
               aria-label="Navigate to the Blog section"

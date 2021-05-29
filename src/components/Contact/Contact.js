@@ -6,9 +6,9 @@ const Contact = () => {
 			<section
 				id="contact"
 				className="section scrollspy"
-				style={{
-					height: "100vh",
-				}}
+				// style={{
+				// 	height: "100vh",
+				// }}
 			>
 				<h3 className="page-title white-text teal">Contact</h3>
 				<div className="container">
