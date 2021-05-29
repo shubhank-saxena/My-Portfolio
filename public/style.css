@@ -335,6 +335,20 @@ small {
 .teal {
   background-color: #008073 !important;
 }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 50%;
+  align-items: center;
+  height: 100%;
+}
+
 @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
@@ -424,6 +438,10 @@ small {
     right: initial;
     top: initial;
   }
+
+  #contact .container {
+    flex-direction: column;
+  }
 }
 @media (max-width: 600px) {
   h2 {
@@ -467,6 +485,8 @@ small {
     text-align: center;
     margin: 0 auto;
   }
+
+
   #intro.section {
     background-position-x: 30%;
   }
