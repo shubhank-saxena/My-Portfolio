@@ -8,7 +8,7 @@
 <a href="https://facebook.com/shubhank.saxena2"><img src="https://github.com/aritraroy/social-icons/blob/master/facebook-icon.png?raw=true" width="60"></a>
 <a href="https://instagram.com/geek_forever_101"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-[![Build Status](https://travis-ci.org/shubhank-saxena/My-Portfolio.svg?branch=master)](https://travis-ci.org/github/shubhank-saxena/My-Portfolio) [![GitHub issues](https://img.shields.io/github/issues/shubhank-saxena/My-Portfolio?logo=github)](https://github.com/shubhank-saxena/My-Portfolio/issues)
+[![GitHub issues](https://img.shields.io/github/issues/shubhank-saxena/My-Portfolio?logo=github)](https://github.com/shubhank-saxena/My-Portfolio/issues)
 ![Size](https://github-size-badge.herokuapp.com/shubhank-saxena/My-Portfolio.svg)
 ![Website](https://img.shields.io/website?down_color=lightgrey&down_message=crap%21&up_color=blue&up_message=it%27s%20up&url=https%3A%2F%2Fshubhank.codes)
 <a> <img src="https://badgen.net/dependabot/shubhank-saxena/My-Portfolio?icon=dependabot" alt="Dependabot Badge"></a>
