@@ -12,17 +12,17 @@ class Skills extends React.Component {
   };
 
   componentDidMount() {
-    axios.get("https://shubhank.codes/api/languageskills").then((res) => {
+    axios.get("https://shubhank19.pythonanywhere.com/api/languageskills/").then((res) => {
       this.setState({
         languageskills: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/frameworkskills").then((res) => {
+    axios.get("https://shubhank19.pythonanywhere.com/api/frameworkskills").then((res) => {
       this.setState({
         frameworkskills: res.data,
       });
     });
-    axios.get("https://shubhank.codes/api/devskills").then((res) => {
+    axios.get("https://shubhank19.pythonanywhere.com/api/devskills").then((res) => {
       this.setState({
         devskills: res.data,
       });
