@@ -19,12 +19,13 @@ SECRET_KEY = env(
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost','shubhank19.pythonanywhere.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    "corsheaders",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -44,13 +45,14 @@ INSTALLED_APPS = [
 ]
 
 
-STATICFILES_DIRS = [os.path.join(FRONTEND_DIR, 'build', 'static')]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_DIRS = [os.path.join(FRONTEND_DIR, 'build', 'static')]
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = "/static/"
 WHITENOISE_ROOT = os.path.join(FRONTEND_DIR, 'build', 'root')
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -80,6 +82,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "backend.config.wsgi.application"
+
+CORS_ORIGIN_ALLOW_ALL = True
 
 DATABASES = {
     "default": {
