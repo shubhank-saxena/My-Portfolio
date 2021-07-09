@@ -82,6 +82,47 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
+                <a href="https://habbit.co.in/">
+                  <img
+                    alt="Habbit Logo"
+                    src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/116796860_155518232821719_5018319396866719141_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=H1GHlZFt4vAAX8KbdlD&tn=gLn5fIykFbNI0Naf&_nc_ht=scontent.fdel3-2.fna&oh=7d45be1a48a4b38f194a489508a9af92&oe=60ECBAFA"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://habbit.co.in"
+                      className="teal-text hoverline"
+                    >
+                      Habbit
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Full Stack Intern</div>
+              <p>
+              <em className="grey-text">
+                Full Stack development - Django, React, React Native, Docker, AWS
+              </em>
+                <ul>
+                <li>Worked on Django backend to imrpove and re-factor payment integrations, mail server sync.</li>
+                <li>Worked on refactoring local development docker services.</li>
+                <li>Worked on user management models and management (django) </li>
+                </ul>
+                </p>
+          </div>
+          <div className="card-action">
+            <span>April 2021 - June 2021 | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
                 <a href="https://home.iitd.ac.in/">
                   <img
                     alt="IITD Logo"
@@ -108,10 +149,15 @@ const Experience = () => {
               <em className="grey-text">
                 Research Internship under Dr.Tapan Kumar Gandhi
               </em>
+              <ul>
+                <li> Worked on wearable jacket acting as an assistive component for Autistic people </li>
+                <li> Worked on capturing bio-signals and their analysis and transformations </li>
+                <li> Worked on training machine learning models for various signals and parameters </li>
+              </ul>
             </p>
           </div>
           <div className="card-action">
-            <span>January 2021 - Ongoing | Kota, IN (Remote)</span>
+            <span>January 2021 - June 2021| Kota, IN (Remote)</span>
           </div>
         </div>
         <div className="card">
