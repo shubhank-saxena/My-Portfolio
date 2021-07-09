@@ -5,7 +5,7 @@ const Experience = () => {
     <section id="experience" className="section scrollspy">
       <h3 className="page-title white-text teal">Experience</h3>
       <div className="container">
-      <div className="card">
+        <div className="card">
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
@@ -33,7 +33,8 @@ const Experience = () => {
             <div className="role brown-text">Open Source Contributor</div>
             <p>
               <em className="grey-text">
-                Part Time Contribution to Anuket project for Integrating ViNePerf for Openstack and K8s Dataplane
+                Part Time Contribution to Anuket project for Integrating
+                ViNePerf for Openstack and K8s Dataplane
               </em>
             </p>
           </div>
@@ -104,16 +105,24 @@ const Experience = () => {
               </div>
             </div>
             <div className="role brown-text">Full Stack Intern</div>
-              <p>
+            <p>
               <em className="grey-text">
-                Full Stack development - Django, React, React Native, Docker, AWS
+                Full Stack development - Django, React, React Native, Docker,
+                AWS
               </em>
-                <ul>
-                <li>Worked on Django backend to imrpove and re-factor payment integrations, mail server sync.</li>
-                <li>Worked on refactoring local development docker services.</li>
-                <li>Worked on user management models and management (django) </li>
-                </ul>
-                </p>
+              <ul>
+                <li>
+                  Worked on Django backend to imrpove and re-factor payment
+                  integrations, mail server sync.
+                </li>
+                <li>
+                  Worked on refactoring local development docker services.
+                </li>
+                <li>
+                  Worked on user management models and management (django){" "}
+                </li>
+              </ul>
+            </p>
           </div>
           <div className="card-action">
             <span>April 2021 - June 2021 | Kota, IN (Remote)</span>
@@ -150,9 +159,21 @@ const Experience = () => {
                 Research Internship under Dr.Tapan Kumar Gandhi
               </em>
               <ul>
-                <li> Worked on wearable jacket acting as an assistive component for Autistic people </li>
-                <li> Worked on capturing bio-signals and their analysis and transformations </li>
-                <li> Worked on training machine learning models for various signals and parameters </li>
+                <li>
+                  {" "}
+                  Worked on wearable jacket acting as an assistive component for
+                  Autistic people{" "}
+                </li>
+                <li>
+                  {" "}
+                  Worked on capturing bio-signals and their analysis and
+                  transformations{" "}
+                </li>
+                <li>
+                  {" "}
+                  Worked on training machine learning models for various signals
+                  and parameters{" "}
+                </li>
               </ul>
             </p>
           </div>

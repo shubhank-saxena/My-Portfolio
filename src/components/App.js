@@ -22,26 +22,34 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    axios.get("https://shubhank19.pythonanywhere.com/api/projects/").then((res) => {
-      this.setState({
-        projects: res.data,
+    axios
+      .get("https://shubhank19.pythonanywhere.com/api/projects/")
+      .then((res) => {
+        this.setState({
+          projects: res.data,
+        });
       });
-    });
-    axios.get("https://shubhank19.pythonanywhere.com/api/opensource/").then((res) => {
-      this.setState({
-        opensource: res.data,
+    axios
+      .get("https://shubhank19.pythonanywhere.com/api/opensource/")
+      .then((res) => {
+        this.setState({
+          opensource: res.data,
+        });
       });
-    });
-    axios.get("https://shubhank19.pythonanywhere.com/api/awards/").then((res) => {
-      this.setState({
-        awards: res.data,
+    axios
+      .get("https://shubhank19.pythonanywhere.com/api/awards/")
+      .then((res) => {
+        this.setState({
+          awards: res.data,
+        });
       });
-    });
-    axios.get("https://shubhank19.pythonanywhere.com/api/education/").then((res) => {
-      this.setState({
-        education: res.data,
+    axios
+      .get("https://shubhank19.pythonanywhere.com/api/education/")
+      .then((res) => {
+        this.setState({
+          education: res.data,
+        });
       });
-    });
   }
 
   render() {

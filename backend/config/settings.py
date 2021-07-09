@@ -19,7 +19,7 @@ SECRET_KEY = env(
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
-ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost','shubhank19.pythonanywhere.com']
+ALLOWED_HOSTS = ['shubhank.codes', '127.0.0.1', 'localhost', 'shubhank19.pythonanywhere.com']
 
 
 # Application definition

@@ -108,7 +108,7 @@ const Navbar = () => {
               <span>Contact</span>
             </a>
           </li>
-          <hr/>
+          <hr />
           <li className="bold">
             <a
               aria-label="Navigate to the Blog section"
@@ -246,7 +246,7 @@ const Navbar = () => {
               <span>Contact</span>
             </a>
           </li>
-          <hr/>
+          <hr />
           <li className="bold">
             <a
               aria-label="Navigate to the Contact section"
