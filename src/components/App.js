@@ -32,11 +32,6 @@ class App extends React.Component {
         opensource: res.data,
       });
     });
-    axios.get("https://shubhank19.pythonanywhere.com/api/experience/").then((res) => {
-      this.setState({
-        experience: res.data,
-      });
-    });
     axios.get("https://shubhank19.pythonanywhere.com/api/awards/").then((res) => {
       this.setState({
         awards: res.data,
