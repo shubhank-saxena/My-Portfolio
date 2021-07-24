@@ -9,6 +9,40 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
+                <a href="https://retrera.com/">
+                  <img
+                    alt="Retrera Logo"
+                    src="https://media-exp1.licdn.com/dms/image/C560BAQGEBh0QF7wHVQ/company-logo_200_200/0/1623447932549?e=1635379200&v=beta&t=cHdkWEkb5O8XM6_P_3pHr-nJJU-sgcWSvZjno9GvAKM"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://retrera.com/"
+                      className="teal-text hoverline"
+                    >
+                      Retrera
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Full Stack Engineer</div>
+            <p>
+              <em className="grey-text">Full Stack Engineer Intern</em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>July 2021 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
                 <a href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc">
                   <img
                     alt="GFOSS Logo"
@@ -86,7 +120,7 @@ const Experience = () => {
                 <a href="https://habbit.co.in/">
                   <img
                     alt="Habbit Logo"
-                    src="https://scontent.fdel3-2.fna.fbcdn.net/v/t1.6435-9/116796860_155518232821719_5018319396866719141_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=H1GHlZFt4vAAX8KbdlD&tn=gLn5fIykFbNI0Naf&_nc_ht=scontent.fdel3-2.fna&oh=7d45be1a48a4b38f194a489508a9af92&oe=60ECBAFA"
+                    src="https://media-exp1.licdn.com/dms/image/C560BAQHgq-tOrQmyYg/company-logo_200_200/0/1596543192338?e=1635379200&v=beta&t=L4OrtDfgnqscntvzHTQMWqirHgI3Z4HutMMntu2F5_s"
                     className="responsive-img center-block"
                   />
                 </a>
