@@ -9,40 +9,6 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
-                <a href="https://retrera.com/">
-                  <img
-                    alt="Retrera Logo"
-                    src="https://media-exp1.licdn.com/dms/image/C560BAQGEBh0QF7wHVQ/company-logo_200_200/0/1623447932549?e=1635379200&v=beta&t=cHdkWEkb5O8XM6_P_3pHr-nJJU-sgcWSvZjno9GvAKM"
-                    className="responsive-img center-block"
-                  />
-                </a>
-              </div>
-              <div className="col s12 m10">
-                <p>
-                  <span className="card-title">
-                    <a
-                      href="https://retrera.com/"
-                      className="teal-text hoverline"
-                    >
-                      Retrera
-                    </a>
-                  </span>
-                </p>
-              </div>
-            </div>
-            <div className="role brown-text">Full Stack Engineer</div>
-            <p>
-              <em className="grey-text">Full Stack Engineer Intern</em>
-            </p>
-          </div>
-          <div className="card-action">
-            <span>July 2021 - Ongoing | Kota, IN (Remote)</span>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <div className="row">
-              <div className="col s12 m2">
                 <a href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc">
                   <img
                     alt="GFOSS Logo"
