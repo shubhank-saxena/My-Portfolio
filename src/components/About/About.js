@@ -27,13 +27,6 @@ const About = () => {
         <p>
           <strong>Current Focus</strong>:&nbsp;
           <a
-            aria-label="GSoC'21"
-            href="https://summerofcode.withgoogle.com/projects/#4980672680165376"
-          >
-            GSoC'21
-          </a>
-          &nbsp;//&nbsp;
-          <a
             aria-label="LFN Mentorship"
             href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc"
           >
