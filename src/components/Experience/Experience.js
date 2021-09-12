@@ -9,9 +9,45 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
+                <a href="https://kernel.community/en/start/">
+                  <img
+                    alt="Gitcoing Logo"
+                    src="https://user-images.githubusercontent.com/23297747/40148910-112c56d4-5936-11e8-95df-aa9796b33bf3.png"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://kernel.community/en/start/"
+                      className="teal-text hoverline"
+                    >
+                      Gitcoin Kernel Block IV
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Kernel Fellow</div>
+            <p>
+              <em className="grey-text">
+                Kernel Fellow at Kernel Block for Web3 Technologies
+              </em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>September 2021 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
                 <a href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc">
                   <img
-                    alt="GFOSS Logo"
+                    alt="LFX Logo"
                     src="https://images.credly.com/images/e6066b96-c59d-49b6-87cc-d8873022e84f/blob.png"
                     className="responsive-img center-block"
                   />
