@@ -123,8 +123,8 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's resume in a new tab"
-              target="blank"
-              href="https://drive.google.com/file/d/1qin65OjAtC79On9A9Cx47G6V3gr75H7g/view?usp=sharing"
+              target="_blank"
+              href="https://drive.google.com/file/d/1GBi0B2dd-M5FVLa6A5T1bnlkCh_3ZXic/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>
@@ -261,8 +261,8 @@ const Navbar = () => {
           <li className="bold">
             <a
               aria-label="Open Shubhank's Resume in a new tab"
-              target="blank"
-              href="https://drive.google.com/file/d/1qin65OjAtC79On9A9Cx47G6V3gr75H7g/view?usp=sharing"
+              target="_blank"
+              href="https://drive.google.com/file/d/1GBi0B2dd-M5FVLa6A5T1bnlkCh_3ZXic/view?usp=sharing"
               className="waves-effect waves-dark grey-text text-darken-3"
             >
               <i className="mdi-action-description small"></i>
