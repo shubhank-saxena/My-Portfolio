@@ -72,10 +72,18 @@ const Experience = () => {
                 Part Time Contribution to Anuket project for Integrating
                 ViNePerf for Openstack and K8s Dataplane
               </em>
+              <ul>
+                <li>Containerized network generator for DPPD-PROX and OPNFV</li>
+                <li>
+                  Created stress-ng-server, a server based wrapper around
+                  stress-ng, to create load, thus testing efficiency of the
+                  other systems under test.
+                </li>
+              </ul>
             </p>
           </div>
           <div className="card-action">
-            <span>June 2021 - Ongoing | Kota, IN (Remote)</span>
+            <span>June 2021 - September 2021| Kota, IN (Remote)</span>
           </div>
         </div>
         <div className="card">

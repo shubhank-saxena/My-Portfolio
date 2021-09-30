@@ -27,10 +27,10 @@ const About = () => {
         <p>
           <strong>Current Focus</strong>:&nbsp;
           <a
-            aria-label="LFN Mentorship"
-            href="https://mentorship.lfx.linuxfoundation.org/project/d2af8346-fdd2-4f27-8c82-96e4d4ccfcdc"
+            aria-label="Gitcoin Kernel Block IV"
+            href="https://kernel.community/en/"
           >
-            LFN Mentorship
+            Gitcoin Kernel Block IV
           </a>
         </p>
       </div>
