@@ -9,6 +9,84 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
+                <a href="https://lime.health/">
+                  <img
+                    alt="Wall App"
+                    src="https://pbs.twimg.com/profile_images/1474613232329396225/ETYPHaPa_400x400.jpg"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://kernel.community/en/start/"
+                      className="teal-text hoverline"
+                    >
+                      Wall App
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Backend Engineer</div>
+            <p>
+              <em className="grey-text">
+                Backend Engineer working on on-chain data aggregation.
+              </em>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>January 2022 - Ongoing | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
+                <a href="https://lime.health/">
+                  <img
+                    alt="Lime Health Logo"
+                    src="https://lime.health/assets/logo.02177699.png"
+                    className="responsive-img center-block"
+                  />
+                </a>
+              </div>
+              <div className="col s12 m10">
+                <p>
+                  <span className="card-title">
+                    <a
+                      href="https://kernel.community/en/start/"
+                      className="teal-text hoverline"
+                    >
+                      Lime Health
+                    </a>
+                  </span>
+                </p>
+              </div>
+            </div>
+            <div className="role brown-text">Contract - Backend Engineer</div>
+            <p>
+              <em className="grey-text">
+                Backend Engineer working on Health records and survey.
+              </em>
+              <ul>
+                <li>
+                  Worked on the Health records and survey API, which is based on
+                  Ruby on Rails.
+                </li>
+              </ul>
+            </p>
+          </div>
+          <div className="card-action">
+            <span>October 2021 - January 2022 | Kota, IN (Remote)</span>
+          </div>
+        </div>
+        <div className="card">
+          <div className="card-content">
+            <div className="row">
+              <div className="col s12 m2">
                 <a href="https://kernel.community/en/start/">
                   <img
                     alt="Gitcoing Logo"
@@ -254,7 +332,7 @@ const Experience = () => {
                 <a href="https://fellowship.mlh.io/">
                   <img
                     alt="MLH Logo"
-                    src="https://mlh.io/assets/logos/mlh-facebook-ae6144c0a3605f15992ee2970616db8d.jpg"
+                    src="https://pbs.twimg.com/profile_images/1184141979493568515/NMa0vlIb_400x400.jpg"
                     className="responsive-img center-block"
                   />
                 </a>
