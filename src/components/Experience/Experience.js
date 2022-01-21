@@ -9,10 +9,10 @@ const Experience = () => {
           <div className="card-content">
             <div className="row">
               <div className="col s12 m2">
-                <a href="https://lime.health/">
+                <a href="http://wall.app/">
                   <img
                     alt="Wall App"
-                    src="https://pbs.twimg.com/profile_images/1474613232329396225/ETYPHaPa_400x400.jpg"
+                    src="https://pbs.twimg.com/profile_images/1480642426293288960/VPaanSou_400x400.jpg"
                     className="responsive-img center-block"
                   />
                 </a>
@@ -20,10 +20,7 @@ const Experience = () => {
               <div className="col s12 m10">
                 <p>
                   <span className="card-title">
-                    <a
-                      href="https://kernel.community/en/start/"
-                      className="teal-text hoverline"
-                    >
+                    <a href="http://wall.app/" className="teal-text hoverline">
                       Wall App
                     </a>
                   </span>

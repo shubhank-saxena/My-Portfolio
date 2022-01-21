@@ -26,7 +26,7 @@ const Education = () => {
                       B.E. in Electronics and Communication Engineering
                       (2017-2021)
                     </li>
-                    <li>GPA - 7.11 (Scale of 10)</li>
+                    <li>GPA - 7.62 (Scale of 10)</li>
                   </ul>
                 </div>
               </div>
