@@ -32,6 +32,27 @@ const Experience = () => {
               <em className="grey-text">
                 Backend Engineer working on on-chain data aggregation.
               </em>
+              <ul>
+                <li>
+                  Create a real-time infra to fetch and process the Ethereum
+                  data.
+                </li>
+                <li>
+                  Filter and index the on-chain data into Logs, Blocks and
+                  Transactions based on Postgresql for future reference and
+                  processing.
+                </li>
+                <li>
+                  Creating an NFT transitions index on top of this and enriching
+                  the data with on-chain and off-chain metadata (image, floor
+                  prices, the price action of the collection, NFT ownership
+                  change etc.){" "}
+                </li>
+                <li>
+                  Created real-time feed of NFT transactions based on
+                  Elasticsearch.{" "}
+                </li>
+              </ul>
             </p>
           </div>
           <div className="card-action">
